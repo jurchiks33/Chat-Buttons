@@ -1,13 +1,16 @@
 const app = Vue.createApp({
     data() {
         return {
-            name: 'Your name',
-            age: 'Your age'
+            name: 'Infinity',
+            age: '999'
         };
     },
     methods: {
         calculateAge() {
             return this.age + 5;
+        }, 
+        calculateRandom() {
+            return Math.random()
         }
     }
 });
