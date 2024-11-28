@@ -3,7 +3,7 @@ const app = Vue.createApp({
         return {
             name: 'Infinity',
             age: '999',
-            imageUrl: ''
+            imageUrl: 'you image here'
         };
     },
     methods: {

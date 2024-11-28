@@ -9,7 +9,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
-    <script src="https://unpkg.com/vue@next" defer></script>
+    <script src="https://unpkg.com/vue@3.4.9/dist/vue.global.js" defer></script> 
     <script src="app.js" defer></script>
   </head>
   <body>
@@ -19,10 +19,9 @@
       <p>{{ calculateAge() }}</p>
       <p>Favorite Number: {{ calculateRandom() }}</p>
       <div>
-        <img v-bind:src="https://unsplash.com/photos/a-person-walking-on-the-beach-at-sunset-tWWdVrUSeik" />
+        <img v-bind:src="imageUrl" />
       </div>
-      <!-- 6) Prepopulate the input field with your name via the "value" attribute -->
-      <input type="text" />
+      <input type="text" v-bind:value="Infinity" />
     </section>
   </body>
 </html>
