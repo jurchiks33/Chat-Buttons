@@ -2,7 +2,8 @@ const app = Vue.createApp({
     data() {
         return {
             name: 'Infinity',
-            age: '999'
+            age: '999',
+            imageUrl: ''
         };
     },
     methods: {
